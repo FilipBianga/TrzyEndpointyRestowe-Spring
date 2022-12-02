@@ -1,7 +1,6 @@
 package com.example.zadanierekrutacyjnespring.numbers.web;
 
 import com.example.zadanierekrutacyjnespring.numbers.domain.Numbers;
-import io.swagger.models.auth.In;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
