@@ -5,6 +5,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * Autor: Filip Bianga
+ *
+ * ==================
+ * Aplikacja RESTowa
+ * ==================
+ *
+ */
+
 @SpringBootApplication
 public class ZadanieRekrutacyjneSpringApplication {
 
