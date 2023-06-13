@@ -1,4 +1,4 @@
-package com.example.zadanierekrutacyjnespring.status.web;
+package com.example.trzyEndpointyRestowe.numbers.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,14 +6,16 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
+
 @SpringBootTest
-class StatusControllerTest {
+class NumbersControllerTest {
 
     @Autowired
-    private StatusController statusController;
+    private NumbersController numbersController;
 
     @Test
-    public void pingReturnPong() {
-        assertThat(statusController).isNotNull();
+    public void numberNotNull() {
+        assertThat(numbersController).isNotNull();
     }
+
 }

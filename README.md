@@ -1,4 +1,4 @@
-<h1>Zadania rekrutacyjne</h1>
+<h1>Trzy Endpointy Restowe - Komunikacja z API NBP</h1>
 <hr>
 <p><strong>Zadanie 1. Aplikacja RESTowa – Java, Spring, Gradle</strong></p>
 <p>Celem zadania jest wykorzystanie frameworka spring oraz gradle lub maven do stworzenia aplikacji
@@ -40,11 +40,19 @@ Uwagi:
   ułatwienia chodzi o konkretny endpoint pod adresem http://api.nbp.pl/api/exchangerates/tables/A?
   format=json). Następnie pobrać kurs waluty zgodnie z parametrem z żądania i zwrócić jego wartość
 - w przypadku podania nieistniejącej waluty należy zwrócić odpowiedni kod oraz wyjątek
-<br><br>
-<p><strong>Zadanie 2. Front end webowy – Javascript, Angular</strong></p>
-Celem zadania jest wykorzystanie frameworka Angular do stworzenia prostego interfejsu
-webowego (strony html) umożliwiającej wprowadzenia listy liczb. Strona ma umożliwiać
-następnie:
-- przesłanie liczb do stworzonego w poprzednim zadaniu endpointu, który je posortuje
-- wyświetlenie wyniku
-  Wygląd interfejsu może być dowolny, może to być jedno pole, może być więcej.
+<hr>
+
+
+## Przykładowe screeny odpowiedzi każdego z endpointów z Postmana
+<br>
+<h4><strong>Endpoint 1.</strong></h4>
+<br>
+<img src="src/main/resources/static/img.png">
+<h4><strong>Endpoint 2.</strong></h4>
+<br>
+<img src="src/main/resources/static/img_1.png">
+<img src="src/main/resources/static/img_2.png">
+<img src="src/main/resources/static/img_3.png">
+<h4><strong>Endpoint 3.</strong></h4>
+<br>
+<img src="src/main/resources/static/img_4.png">

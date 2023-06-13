@@ -1,9 +1,11 @@
-package com.example.zadanierekrutacyjnespring.nbp.web;
+package com.example.trzyEndpointyRestowe.nbp.web;
 
-import com.example.zadanierekrutacyjnespring.nbp.application.NbpService;
-import com.example.zadanierekrutacyjnespring.nbp.domain.Currency;
+import com.example.trzyEndpointyRestowe.nbp.application.NbpService;
+import com.example.trzyEndpointyRestowe.nbp.domain.Currency;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * Endpoint 3
@@ -11,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
  * aktualny kurs danej waluty
  */
 
-@RequestMapping("/currencies")
+@RequestMapping("/currency")
 @RestController
 public class NbpController {
 
@@ -22,9 +24,9 @@ public class NbpController {
      * @return wszystkich "rates" z uwzględnieniem "code, mid"
      */
 
-    @GetMapping("/all")
-    private Currency[] getValue() {
-        return nbpService.findAll();
+    @GetMapping("/specific")
+    private List<Currency> getValue(@RequestParam String code) {
+        return nbpService.findSpecificCurrencyByItsCode(code);
 
     }
 

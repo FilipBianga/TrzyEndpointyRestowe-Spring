@@ -1,4 +1,4 @@
-package com.example.zadanierekrutacyjnespring;
+package com.example.trzyEndpointyRestowe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
